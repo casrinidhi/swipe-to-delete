@@ -1,0 +1,35 @@
+
+body {
+	color: rgba(33, 37, 41, 0.76);
+}
+
+.form-container {
+	background-color: rgba(172, 172, 172, 0.3);
+	border: solid 1px rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	box-shadow: 0 1px 12px rgba(0, 0, 0, .5);
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.overflow-hide {
+	overflow: hidden;
+}
+
+.list-group-item {
+	z-index: 1;
+}
+
+.delete-container {
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	height: 100%;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background: rgba(255, 0, 0, 0.63);
+	border-top-right-radius: .25rem;
+	border: 1px solid rgba(0,0,0,.125);
+}
